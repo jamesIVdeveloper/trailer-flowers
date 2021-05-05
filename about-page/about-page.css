@@ -1,0 +1,33 @@
+body {
+  background-image: url("https://i.postimg.cc/8ccBpWCk/1I6A1221.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#about {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+@media (min-width: 800px) {
+  body {
+    background-position: left;
+    background-size: 60% auto;
+  }
+
+  main {
+    width: 37%;
+    float: right;
+  }
+}
