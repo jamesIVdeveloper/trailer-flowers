@@ -16,26 +16,40 @@ body {
 }
 
 #nav-list li a {
-  font-family: sans-serif;
+  font-family: "Courier New", sans-serif, monospace;
   text-decoration: none;
   color: black;
-  font-size: 30px;
+  font-size: 15px;
   padding: 5px 10px 5px 10px;
   border-radius: 10px;
 }
 
 #left {
   background-color: #ffb6c1;
+  border-style: solid;
+  border-color: #ccffcc;
 }
 
 #right {
   background-color: #ccffcc;
+  border-style: solid;
+  border-color: #ffb6c1;
 }
 
 @media (min-width: 400px) {
+  #nav-list li a {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1000px) {
   #nav-list {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+  }
+
+  #nav-list li a {
+    font-size: 30px;
   }
 }
