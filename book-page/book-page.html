@@ -7,5 +7,46 @@
     <link href="book-page.css" rel="stylesheet" type="text/css" />
     <title>Book</title>
   </head>
-  <body></body>
+  <body>
+    <header "book-header">
+      <h1>Book Request</h1>
+    </header>
+    <main id="book-main">
+      <form action="" id="book-form">
+        <div id="form-line">
+          <label for="name" id="name-label">Name </label>
+          <input type="text" name="name" id="name" placeholder="name" />
+        </div>
+        <div id="form-line">
+          <label for="date" id="date-label">Date of Event </label>
+          <input type="date" name="date" id="date" />
+        </div>
+        <div id="form-line">
+          <label for="time" id="time-label">Time of Event </label>
+          <input type="time" name="time" id="time" />
+        </div>
+        <div id="form-line">
+          <label for="venue" id="venue-label">Venue </label>
+          <input type="text" name="venue" id="venue" placeholder="venue" />
+        </div>
+        <div id="form-line">
+          <p>Will equipment be provided? </p>
+          <input type="radio" id="yes" name="equipment" value="yes" />
+          <label for="yes">Yes</label>
+          <input type="radio" id="no" name="equipment" value="no" />
+          <label for="no">No</label>
+          <input type="radio" id="other" name="equipment" value="other" />
+          <label for="other">Other</label>
+        </div>
+        <div id="form-line">
+          <label for="number" id="number-label">Contact Number </label>
+          <input type="text" id="number" name="number" placeholder="phone #" />
+        </div>
+        <div id="form-line">
+          <label type="text" id="email-label">Contact Email </label>
+          <input type="email" id="email" name="email" placeholder="youremail@site.com" />
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
