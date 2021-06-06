@@ -1,6 +1,6 @@
 body {
   background: #ccffcc;
-  font-family: "Courier New", sans-serif, monospace;
+  font-family: Comic Sans MS, "Roboto Mono", "Courier New", Courier, monospace;
 }
 
 header h1 {
@@ -15,8 +15,7 @@ main {
 
 #book-form {
   background: #ffb6c1;
-  height: auto;
-  width: auto;
+  margin: 10%;
   padding: 10px;
   border: solid;
   border-width: 1px;
@@ -25,4 +24,14 @@ main {
 
 #form-line {
   padding: 5px;
+}
+
+.form-submit {
+  text-align: center;
+}
+
+@media (min-width: 600px) {
+  #book-form {
+    width: 400px;
+  }
 }

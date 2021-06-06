@@ -1,0 +1,44 @@
+body {
+  background-color: #ccffcc;
+  font-family: Comic Sans MS, "Roboto Mono", "Courier New", Courier, monospace;
+}
+
+header h1 {
+  text-align: center;
+}
+
+#items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#merch-item {
+  background-color: #ffb6c1;
+  text-align: center;
+  border: solid;
+  border-radius: 5px;
+  width: 215px;
+  padding: 10px 5px 10px 5px;
+  margin: 10px;
+  margin-bottom: 10px;
+}
+
+#price {
+  margin: 0;
+}
+
+#buy-btn {
+  margin: 0;
+}
+
+#item-btn {
+  width: 100px;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+}
+
+#item-btn:hover {
+  cursor: pointer;
+}
